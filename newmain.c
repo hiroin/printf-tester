@@ -6,7 +6,7 @@
 /*   By: user42 <user42@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/18 10:29:29 by abourin           #+#    #+#             */
-/*   Updated: 2020/07/11 06:33:35 by user42           ###   ########.fr       */
+/*   Updated: 2020/07/11 06:43:15 by user42           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -313,6 +313,21 @@ int main(void)
 	printf("add0223 [%-2.3p]\n", c);
 	printf("add0224 [%-2.3p]\n", c);
 	printf("add0225 [%02.3p]\n", c);
+	printf("add0260 [%*p]\n", 10, c);
+	printf("add0261 [%*p]\n", 3, c);
+	printf("add0262 [%*p]\n", 2, c);
+	printf("add0263 [%*p]\n", 0, c);
+	printf("add0264 [%*p]\n", -1, c);
+	printf("add0265 [%.*p]\n", 10, c);
+	printf("add0266 [%.*p]\n", 3, c);
+	printf("add0267 [%.*p]\n", 2, c);
+	printf("add0268 [%.*p]\n", 0, c);
+	printf("add0269 [%.*p]\n", -1, c);
+	printf("add0270 [%*.*p]\n", 10, 10, c);
+	printf("add0271 [%*.*p]\n", 10, 3, c);
+	printf("add0272 [%*.*p]\n", 10, 2, c);
+	printf("add0273 [%*.*p]\n", 10, 0, c);
+	printf("add0274 [%*.*p]\n", 10, -1, c);	
 	printf("add0301 [%010.p]\n", NULL);
 	printf("add0302 [%010.0p]\n", NULL);
 	printf("add0303 [%-10.p]\n", NULL);
@@ -338,6 +353,21 @@ int main(void)
 	printf("add0323 [%-2.3p]\n", NULL);
 	printf("add0324 [%-2.3p]\n", NULL);
 	printf("add0325 [%02.3p]\n", NULL);
+	printf("add0360 [%*p]\n", 10, NULL);
+	printf("add0361 [%*p]\n", 3, NULL);
+	printf("add0362 [%*p]\n", 2, NULL);
+	printf("add0363 [%*p]\n", 0, NULL);
+	printf("add0364 [%*p]\n", -1, NULL);
+	printf("add0365 [%.*p]\n", 10, NULL);
+	printf("add0366 [%.*p]\n", 3, NULL);
+	printf("add0367 [%.*p]\n", 2, NULL);
+	printf("add0368 [%.*p]\n", 0, NULL);
+	printf("add0369 [%.*p]\n", -1, NULL);
+	printf("add0370 [%*.*p]\n", 10, 10, NULL);
+	printf("add0371 [%*.*p]\n", 10, 3, NULL);
+	printf("add0372 [%*.*p]\n", 10, 2, NULL);
+	printf("add0373 [%*.*p]\n", 10, 0, NULL);
+	printf("add0374 [%*.*p]\n", 10, -1, NULL);
 	printf("add0401 [%010.d]\n", 123);
 	printf("add0402 [%010.0d]\n", 123);
 	printf("add0403 [%-10.d]\n", 123);
@@ -415,6 +445,21 @@ int main(void)
 	printf("add0485 [%02.3d]\n", 0);
 	printf("add0490 [%d]\n", INT_MAX);
 	printf("add0491 [%d]\n", INT_MIN);
+	printf("add0760 [%*d]\n", 10, 123);
+	printf("add0761 [%*d]\n", 3, 123);
+	printf("add0762 [%*d]\n", 2, 123);
+	printf("add0763 [%*d]\n", 0, 123);
+	printf("add0764 [%*d]\n", -1, 123);
+	printf("add0765 [%.*d]\n", 10, 123);
+	printf("add0766 [%.*d]\n", 3, 123);
+	printf("add0767 [%.*d]\n", 2, 123);
+	printf("add0768 [%.*d]\n", 0, 123);
+	printf("add0769 [%.*d]\n", -1, 123);
+	printf("add0770 [%*.*d]\n", 10, 10, 123);
+	printf("add0771 [%*.*d]\n", 10, 3, 123);
+	printf("add0772 [%*.*d]\n", 10, 2, 123);
+	printf("add0773 [%*.*d]\n", 10, 0, 123);
+	printf("add0774 [%*.*d]\n", 10, -1, 123);	
 	printf("add0501 [%010.u]\n", 123);
 	printf("add0502 [%010.0u]\n", 123);
 	printf("add0503 [%-10.u]\n", 123);
@@ -492,6 +537,21 @@ int main(void)
 	printf("add0585 [%02.3u]\n", 0);
 	printf("add0590 [%u]\n", INT_MAX);
 	printf("add0591 [%u]\n", INT_MIN);
+	printf("add0860 [%*u]\n", 10, 123);
+	printf("add0861 [%*u]\n", 3, 123);
+	printf("add0862 [%*u]\n", 2, 123);
+	printf("add0863 [%*u]\n", 0, 123);
+	printf("add0864 [%*u]\n", -1, 123);
+	printf("add0865 [%.*u]\n", 10, 123);
+	printf("add0866 [%.*u]\n", 3, 123);
+	printf("add0867 [%.*u]\n", 2, 123);
+	printf("add0868 [%.*u]\n", 0, 123);
+	printf("add0869 [%.*u]\n", -1, 123);
+	printf("add0870 [%*.*u]\n", 10, 10, 123);
+	printf("add0871 [%*.*u]\n", 10, 3, 123);
+	printf("add0872 [%*.*u]\n", 10, 2, 123);
+	printf("add0873 [%*.*u]\n", 10, 0, 123);
+	printf("add0874 [%*.*u]\n", 10, -1, 123);
 	printf("add0601 [%010.x]\n", 123);
 	printf("add0602 [%010.0x]\n", 123);
 	printf("add0603 [%-10.x]\n", 123);
@@ -569,4 +629,19 @@ int main(void)
 	printf("add0685 [%02.3x]\n", 0);
 	printf("add0690 [%x]\n", INT_MAX);
 	printf("add0691 [%x]\n", INT_MIN);
+	printf("add0960 [%*x]\n", 10, 123);
+	printf("add0961 [%*x]\n", 3, 123);
+	printf("add0962 [%*x]\n", 2, 123);
+	printf("add0963 [%*x]\n", 0, 123);
+	printf("add0964 [%*x]\n", -1, 123);
+	printf("add0965 [%.*x]\n", 10, 123);
+	printf("add0966 [%.*x]\n", 3, 123);
+	printf("add0967 [%.*x]\n", 2, 123);
+	printf("add0968 [%.*x]\n", 0, 123);
+	printf("add0969 [%.*x]\n", -1, 123);
+	printf("add0970 [%*.*x]\n", 10, 10, 123);
+	printf("add0971 [%*.*x]\n", 10, 3, 123);
+	printf("add0972 [%*.*x]\n", 10, 2, 123);
+	printf("add0973 [%*.*x]\n", 10, 0, 123);
+	printf("add0974 [%*.*x]\n", 10, -1, 123);
 }
