@@ -6,7 +6,7 @@
 /*   By: user42 <user42@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/18 10:29:29 by abourin           #+#    #+#             */
-/*   Updated: 2020/07/11 03:48:05 by user42           ###   ########.fr       */
+/*   Updated: 2020/07/11 04:14:08 by user42           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -249,31 +249,30 @@ int main(void)
 	printf("add0123 [%-2.3s]\n", "abc");
 	printf("add0124 [%-2.3s]\n", "abc");
 	printf("add0125 [%02.3s]\n", "abc");
-	printf("add0201 [%010.p]\n", "abc");
-	printf("add0202 [%010.0p]\n", "abc");
-	printf("add0203 [%-10.p]\n", "abc");
-	printf("add0204 [%-10.0p]\n", "abc");
-	printf("add0205 [%010.p]\n", "abc");
-	printf("add0206 [%02.p]\n", "abc");
-	printf("add0207 [%02.0p]\n", "abc");
-	printf("add0208 [%-2.p]\n", "abc");
-	printf("add0209 [%-2.0p]\n", "abc");
-	printf("add0210 [%02.p]\n", "abc");
-	printf("add0211 [%010.2p]\n", "abc");
-	printf("add0212 [%010.2p]\n", "abc");
-	printf("add0213 [%-10.2p]\n", "abc");
-	printf("add0214 [%-10.2p]\n", "abc");
-	printf("add0215 [%010.2p]\n", "abc");
-	printf("add0216 [%02.2p]\n", "abc");
-	printf("add0217 [%02.2p]\n", "abc");
-	printf("add0218 [%-2.2p]\n", "abc");
-	printf("add0219 [%-2.2p]\n", "abc");
-	printf("add0220 [%02.2p]\n", "abc");
-	printf("add0221 [%02.3p]\n", "abc");
-	printf("add0222 [%02.3p]\n", "abc");
-	printf("add0223 [%-2.3p]\n", "abc");
-	printf("add0224 [%-2.3p]\n", "abc");
-	printf("add0225 [%02.3p]\n", "abc");
+	printf("add0202 [%010.0p]\n", c);
+	printf("add0203 [%-10.p]\n", c);
+	printf("add0204 [%-10.0p]\n", c);
+	printf("add0205 [%010.p]\n", c);
+	printf("add0206 [%02.p]\n", c);
+	printf("add0207 [%02.0p]\n", c);
+	printf("add0208 [%-2.p]\n", c);
+	printf("add0209 [%-2.0p]\n", c);
+	printf("add0210 [%02.p]\n", c);
+	printf("add0211 [%010.2p]\n", c);
+	printf("add0212 [%010.2p]\n", c);
+	printf("add0213 [%-10.2p]\n", c);
+	printf("add0214 [%-10.2p]\n", c);
+	printf("add0215 [%010.2p]\n", c);
+	printf("add0216 [%02.2p]\n", c);
+	printf("add0217 [%02.2p]\n", c);
+	printf("add0218 [%-2.2p]\n", c);
+	printf("add0219 [%-2.2p]\n", c);
+	printf("add0220 [%02.2p]\n", c);
+	printf("add0221 [%02.3p]\n", c);
+	printf("add0222 [%02.3p]\n", c);
+	printf("add0223 [%-2.3p]\n", c);
+	printf("add0224 [%-2.3p]\n", c);
+	printf("add0225 [%02.3p]\n", c);
 	printf("add0301 [%010.p]\n", NULL);
 	printf("add0302 [%010.0p]\n", NULL);
 	printf("add0303 [%-10.p]\n", NULL);
@@ -401,8 +400,8 @@ int main(void)
 	printf("add0553 [%-2.3u]\n", -123);
 	printf("add0554 [%-2.3u]\n", -123);
 	printf("add0555 [%02.3u]\n", -123);
-	printf("add0560 [%u]\n", UINT_MAX);
-	printf("add0561 [%u]\n", UINT_MIN);
+	printf("add0560 [%u]\n", INT_MAX);
+	printf("add0561 [%u]\n", INT_MIN);
 	printf("add0601 [%010.x]\n", 123);
 	printf("add0602 [%010.0x]\n", 123);
 	printf("add0603 [%-10.x]\n", 123);
