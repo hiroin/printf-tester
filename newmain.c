@@ -6,7 +6,7 @@
 /*   By: user42 <user42@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/18 10:29:29 by abourin           #+#    #+#             */
-/*   Updated: 2020/07/11 06:50:27 by user42           ###   ########.fr       */
+/*   Updated: 2020/07/11 10:42:14 by user42           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -644,6 +644,26 @@ int main(void)
 	printf("add0972 [%*.*x]\n", 10, 2, 123);
 	printf("add0973 [%*.*x]\n", 10, 0, 123);
 	printf("add0974 [%*.*x]\n", 10, -1, 123);
+	printf("add1060 [%*d]\n", 10, 0);
+	printf("add1061 [%*d]\n", 3, 0);
+	printf("add1062 [%*d]\n", 2, 0);
+	printf("add1063 [%*d]\n", 0, 0);
+	printf("add1064 [%*d]\n", -1, 0);
+	printf("add1065 [%.*d]\n", 10, 0);
+	printf("add1066 [%.*d]\n", 3, 0);
+	printf("add1067 [%.*d]\n", 2, 0);
+	printf("add1068 [%.*d]\n", 0, 0);
+	printf("add1069 [%.*d]\n", -1, 0);
+	printf("add1070 [%*.*d]\n", 10, 10, 0);
+	printf("add1071 [%*.*d]\n", 10, 3, 0);
+	printf("add1072 [%*.*d]\n", 10, 2, 0);
+	printf("add1073 [%*.*d]\n", 10, 0, 0);
+	printf("add1074 [%*.*d]\n", 10, -1, 0);
+	printf("add1070 [%*.*d]\n", -10, 10, 0);
+	printf("add1071 [%*.*d]\n", -10, 3, 0);
+	printf("add1072 [%*.*d]\n", -10, 2, 0);
+	printf("add1073 [%*.*d]\n", -10, 0, 0);
+	printf("add1074 [%*.*d]\n", -10, -1, 0);	
 	printf("%c %s %p %d %i %u %x %X %%", 'z', "abc", c, 123, 123, 123, 123, 123);
 	printf("c%ccs%ssp%ppd%ddi%iiu%uux%xxX%XX%%%%", 'z', "abc", c, 123, 123, 123, 123, 123);
 }
